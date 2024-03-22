@@ -16,6 +16,6 @@ app.get('/test',(req,res)=>{
     res.status(200).json({message:'server works!'})
 })
 
-app.listen(4000,()=>{
-    console.log(`listening to port ${4000}`)
+app.listen(443,'0.0.0.0',()=>{
+    console.log(`listening to port ${443}`)
 })
